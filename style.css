@@ -1,0 +1,14 @@
+/* Styles go here */
+
+/* body {
+  padding-top:100px;
+} */
+
+.has-error p{
+  color:red;
+  margin:0px;
+}
+
+.glyphicon {
+  cursor:pointer;
+}
