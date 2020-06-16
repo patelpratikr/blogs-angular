@@ -1,0 +1,6 @@
+Steps to run:
+
+1)  Get the latest from git.
+2)  Make sure internet connection is on.
+3)  Run BlogList in the firefox/chrome.
+4)  See the data in form of table.
