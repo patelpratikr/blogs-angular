@@ -1,6 +1,6 @@
-  var app = angular.module('formvalidation', ['ngMessages']);
+  var app = angular.module('BlogApplication', ['ngMessages']);
 
-  angular.module('formvalidation').controller('MainController', MainControllerfn);
+  angular.module('BlogApplication').controller('MainController', MainControllerfn);
 
 
   function MainControllerfn($scope, $http) {
