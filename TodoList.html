@@ -23,19 +23,19 @@
       </thead>
       <tbody>
         <tr ng-repeat="item in blogs">
-          <td ng-if="item.completed == true" class="success">
-            {{ item.title }}
+          <td ng-if="item.Completed == true" class="success">
+            {{ item.Title }}
           </td>
-          <td ng-if="item.completed == false" class="danger">
-            {{ item.title }}
+          <td ng-if="item.Completed == false" class="danger">
+            {{ item.Title }}
           </td>
-          <td ng-if="item.completed == true" class="success">
+          <td ng-if="item.Completed == true" class="success">
             <img src="imgs/green-tick.jpg" height="20" width="20" />
           </td>
-          <td ng-if="item.completed == false" class="danger">
+          <td ng-if="item.Completed == false" class="danger">
             <img src="imgs/red-x.jpg" height="20" width="20"/>
           </td>
-        </tr>
+        </tr>        
       </tbody>
     </table>
   </div>  
